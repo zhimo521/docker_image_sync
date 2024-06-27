@@ -13,7 +13,7 @@
 --platform=linux/arm64 elasticsearch:7.9.3
 # 没有--platform=linux/arm64 nacos/nacos-server:v2.2.0
 # 没有--platform=linux/arm64 nacos/nacos-server:v2.2.3
---platform=linux/arm64 wnameless/oracle-xe-11g-r2
+# 没有--platform=linux/arm64 wnameless/oracle-xe-11g-r2
 --platform=linux/arm64 mongo:4
 --platform=linux/arm64 postgres:12.10-alpine3.15
 --platform=linux/arm64 dockerarbor/kingbase:v8r3
