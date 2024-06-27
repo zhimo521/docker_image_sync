@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: 
-      - 'sync-to-huawei-cloud'
+      - 'main'
     paths:
       - 'images-amd64.txt'
 env:
