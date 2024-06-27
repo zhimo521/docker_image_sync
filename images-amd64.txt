@@ -56,3 +56,5 @@ apache/skywalking-oap-server:8.5.0-es7
 --platform=linux/amd64 apache/skywalking-oap-server:8.5.0-es7
 apache/skywalking-ui:8.5.0
 --platform=linux/amd64 apache/skywalking-ui:8.5.0
+linuxserver/libreoffice:7.6.7
+--platform=linux/amd64 linuxserver/libreoffice:7.6.7
