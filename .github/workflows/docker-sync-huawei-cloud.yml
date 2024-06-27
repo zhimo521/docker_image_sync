@@ -1,8 +1,11 @@
-name: Docker-sync-to-huawei-cloud
+name: Docker-sync-amd64-to-huawei-cloud
 on:
   workflow_dispatch:
   push:
-    branches: [ sync-to-huawei-cloud ]
+    branches: 
+      - 'sync-to-huawei-cloud'
+    paths:
+      - 'images-amd64.txt'
 env:
   HUAWEI_KEY: "${{ secrets.HUAWEI_KEY }}"
   HUAWEI_SCRET: "${{ secrets.HUAWEI_SCRET }}"
@@ -82,7 +85,7 @@ jobs:
                 # 存镜像的命名空间
                 temp_map[$image_name]=$name_space
             fi       
-        done < images.txt        
+        done < images-amd64.txt        
         while IFS= read -r line || [ -n "$line" ]; do
             # 忽略空行与注释
             [[ -z "$line" ]] && continue
@@ -133,4 +136,4 @@ jobs:
             echo "=============================================================================="
             df -hT
             echo "=============================================================================="            
-        done < images.txt
+        done < images-amd64.txt
