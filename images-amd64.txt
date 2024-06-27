@@ -1,0 +1,15 @@
+# 支持指定架构
+nginx:1.27
+--platform=linux/amd64 nginx:1.27
+nginx:1.27-alpine3.19-slim
+--platform=linux/amd64 nginx:1.27-alpine3.19-slim
+mysql:5.7
+--platform=linux/amd64 mysql:5.7
+mysql:8.0
+--platform=linux/amd64 mysql:8.0
+redis:4
+--platform=linux/amd64 redis:4
+redis:5
+--platform=linux/amd64 redis:5
+redis:6
+--platform=linux/amd64 redis:6
