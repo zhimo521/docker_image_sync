@@ -13,3 +13,24 @@ redis:5
 --platform=linux/amd64 redis:5
 redis:6
 --platform=linux/amd64 redis:6
+# 2024年6月27日21:24:14
+rabbitmq:3-management
+--platform=linux/amd64 rabbitmq:3-management
+bitnami/minio:2024.4.18
+--platform=linux/amd64 bitnami/minio:2024.4.18
+elasticsearch:7.9.3
+--platform=linux/amd64 elasticsearch:7.9.3
+nacos/nacos-server:v2.2.0
+--platform=linux/amd64 nacos/nacos-server:v2.2.0
+nacos/nacos-server:v2.2.3
+--platform=linux/amd64 nacos/nacos-server:v2.2.3
+wnameless/oracle-xe-11g-r2
+--platform=linux/amd64 wnameless/oracle-xe-11g-r2
+mongo:4
+--platform=linux/amd64 mongo:4
+postgres:12.10-alpine3.15
+--platform=linux/amd64 postgres:12.10-alpine3.15
+dockerarbor/kingbase:v8r3
+--platform=linux/amd64 dockerarbor/kingbase:v8r3
+apache/iotdb:1.3.0-standalone
+--platform=linux/amd64 apache/iotdb:1.3.0-standalone
