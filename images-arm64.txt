@@ -11,8 +11,8 @@
 --platform=linux/arm64 rabbitmq:3-management
 --platform=linux/arm64 bitnami/minio:2024.4.18
 --platform=linux/arm64 elasticsearch:7.9.3
---platform=linux/arm64 nacos/nacos-server:v2.2.0
---platform=linux/arm64 nacos/nacos-server:v2.2.3
+# 没有--platform=linux/arm64 nacos/nacos-server:v2.2.0
+# 没有--platform=linux/arm64 nacos/nacos-server:v2.2.3
 --platform=linux/arm64 wnameless/oracle-xe-11g-r2
 --platform=linux/arm64 mongo:4
 --platform=linux/arm64 postgres:12.10-alpine3.15
