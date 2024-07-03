@@ -70,7 +70,7 @@ jobs:
             name_space=$(echo "$image" | awk -F'/' '{if (NF==3) print $2; else if (NF==2) print $1; else print ""}')
             echo "name_space: $name_space"
             # 这里不要是空值影响判断
-            name_space="${name_space}_"
+            name_space="-${name_space}"
             # 获取镜像名例如nginx
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
             echo "image_name: $image_name"            
