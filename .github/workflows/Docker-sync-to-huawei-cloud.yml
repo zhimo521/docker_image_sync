@@ -171,10 +171,10 @@ jobs:
               pnew_image="$HUAWEI_REGISTRY/$HUAWEI_NAME_SPACE/$pimage_name_tag$pname_space_prefix"
               echo "docker manifest create $pnew_image $pimages --amend"
               docker manifest create $pnew_image $pimages --amend
-              echo "docker push $pnew_image"
-              docker push $pnew_image
+              echo "docker manifest push $pnew_image -p"
+              docker manifest push $pnew_image -p
               echo "docker rmi $pimages"
-              docker rmi $pimages $pnew_image
+              docker rmi $pimages
               df -hT
               echo "=============================================================================="
             else
