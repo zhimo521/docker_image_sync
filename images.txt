@@ -27,5 +27,5 @@
 --platform=linux/amd64,linux/arm64 snowdreamtech/frpc
 --platform=linux/amd64 logstash:7.9.3
 --platform=linux/amd64 kibana:7.9.3
---platform=linux/amd64,linux/arm64 apache/skywalking-oap-server:8.5.0-es7
---platform=linux/amd64,linux/arm64 apache/skywalking-ui:8.5.0
+--platform=linux/amd64 apache/skywalking-oap-server:8.5.0-es7
+--platform=linux/amd64 apache/skywalking-ui:8.5.0
