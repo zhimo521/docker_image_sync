@@ -32,3 +32,6 @@ https://docs.github.com/zh
 
 > 阿里云可以将命名空间设置为公开；
 > 华为云需要每个镜像`单独`设置为公开；
+
+# 鸣谢
+基于项目[docker_image_pusher](https://github.com/tech-shrimp/docker_image_pusher)改进而来，支持同步多架构、多厂商容器镜像服务仓库。
